@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-image: url(./public/images/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.box-wrapper{
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+.box-arrow{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+h3{
+    color: yellow;
+    text-align: center;
+}
+.box.active .box-text{
+    display: block;
+}
+
+.box-title{
+    color: aqua;
+    margin: 0;
+}
+.box-text{
+    display: none;
+}
+/* .box:hover .box-text{
+    display: block;
+}
+
+.box:hover .box-title{
+    color: yellow;
+    font-size: 14px;
+} */
